@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getVotersList",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "voterId",
+								"type": "address"
+							},
+							{
+								"internalType": "bool",
+								"name": "isRegistered",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "hasVoted",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Voting.Voter[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "registerVoter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "voters",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "voterId",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isRegistered",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasVoted",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/assignment 1/voting.sol": "Voting"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/assignment 1/voting.sol": {
+			"keccak256": "0x6e0db375e044a0224b5c9d39ddefd1a4485b609ce58ab51c0b8d82f5f70045dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5271fa4572b8fd904673e2031beb58d1ffba8786a69f70dcea9a7bf5b25b1726",
+				"dweb:/ipfs/Qmb8p6nWYmt1jEXdGykdBsUjXu2AebnwQNoHWwaCcw8oGr"
+			]
+		}
+	},
+	"version": 1
+}
